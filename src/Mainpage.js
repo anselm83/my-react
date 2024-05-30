@@ -8,12 +8,13 @@ import {
     NavLink,
     Routes,
   } from "react-router-dom";
+import styles from './App.css';
 
 export default function Mainpage() {
   return (
     <>
          <Router>
-            <ul>
+            <ul className="menuBar">
                 <li>
                 <NavLink className="nav-link" to="/" exact >Home</NavLink> 
                 </li>
