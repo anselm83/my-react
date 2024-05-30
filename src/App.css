@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.menuBar {
+    display:flex;
+    width:auto;
+    justify-content:flex-end;
+    flex-direction:row;
+    list-style-type:none;
+    padding:20px;
+    margin-right:100px;
+}
+.menuBar li{
+    padding:20px;
+}
+
+.nav-link{
+    text-decoration:none;
+    color:blue;
+}
+
+.menuBar li:hover{
+    background-color:brown;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
